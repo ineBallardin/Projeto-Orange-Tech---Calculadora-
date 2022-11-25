@@ -10,8 +10,8 @@ const App = () => {
   const [operation, setOperation] = useState('');
   
 
-  const handleAddNumber = (number) => {
-    setCurrentNumber(prev => `${prev === '0' ? '' : prev}${number}`)
+  const handleAddNumber = (num) => {
+    setCurrentNumber(prev => `${prev === '0' ? '' : prev}${num}`)
   }
 
   const handleOnClear = () => {
